@@ -5,7 +5,7 @@ module musicfeatures (input clk1, input clk2, input octave_dena, input octave_ue
 	wire led;
   	wire led1, led2, led3, led4, led5, led6;
 	assign tremolo = clk1&~clk2;
-	assign octave_up = ((~clk1) ^ clk1));
+	assign octave_up = ((~clk1) ^ clk1);
 	DFF v1 ( .D(~octave_down), .clk(clk1), .Q(octave_down) );
 
   	DFF l1 (.D(~led6), .clk(clk1), .Q(led1));
