@@ -13,7 +13,7 @@ Our chip has a digital audio input wave that is modified through the chip, and t
 
 ## How to test
 
-Explain how to use your project
+Connect thingsssssssss
 
 ## External hardware
 
