@@ -27,12 +27,12 @@ pinout:
   # Inputs
   ui[0]: ""
   ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[2]: "led_ena"
+  ui[3]: "tremolo_ena"
+  ui[4]: "octave_uena"
+  ui[5]: "octave_dena"
+  ui[6]: "clk2"
+  ui[7]: "clk1"
 
   # Outputs
   uo[0]: ""
@@ -40,9 +40,9 @@ pinout:
   uo[2]: ""
   uo[3]: ""
   uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[5]: "led_out"
+  uo[6]: "extra_features"
+  uo[7]: "out_octave"
 
   # Bidirectional pins
   uio[0]: ""
