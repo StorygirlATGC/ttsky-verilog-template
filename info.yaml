@@ -40,9 +40,9 @@ pinout:
   uo[2]: ""
   uo[3]: ""
   uo[4]: ""
-  uo[5]: "led_out"
-  uo[6]: "extra_features"
-  uo[7]: "out_octave"
+  uo[5]: ""
+  uo[6]: "led_out"
+  uo[7]: "out_full"
 
   # Bidirectional pins
   uio[0]: ""
