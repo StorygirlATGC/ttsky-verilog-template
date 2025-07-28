@@ -1,4 +1,4 @@
-module musicfeatures (input clk1, input clk2, input octave_dena, input octave_uena, input tremolo_ena, input led_ena, output out_full, output led_out);
+module musicfeatures (input clk1, input clk2, input octave_dena, input octave_uena, input tremolo_ena, input led_ena, output out_full);
 	wire octave_down;
 	wire tremolo;
 	wire octave_up;
@@ -16,13 +16,5 @@ module musicfeatures (input clk1, input clk2, input octave_dena, input octave_ue
 	assign tremolo = octave_out & ~ clk2;
 	assign out_full = tremolo_ena ? tremolo: octave_out;
 
-	reg [5:0] q;
-	reg led;
-	reg led_reg;
-	always @(posedge clk1) begin
-		q <= (q==63) ? 0: q+1;
-		led <= (q == 0) ? 0:1;
-		led_reg <= led_ena ? led: 0;
-	end
-	assign led_out = led_reg;
+	
 endmodule
