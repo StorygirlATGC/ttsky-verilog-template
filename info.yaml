@@ -41,7 +41,7 @@ pinout:
   uo[3]: ""
   uo[4]: ""
   uo[5]: ""
-  uo[6]: "led_out"
+  uo[6]: ""
   uo[7]: "out_full"
 
   # Bidirectional pins
