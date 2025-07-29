@@ -21,7 +21,7 @@ module tt_um_musiccc (
   assign uio_out = 0;
   assign uio_oe  = 0;
     assign uo_out[5:0] = 0;
-    musicfeatures my_music( .clk1(ui_in[7]), .clk2(ui_in[6]), .octave_dena(ui_in[5]), .octave_uena(ui_in[4]), .tremolo_ena(ui_in[3]), .out_o(uo_out[7]), .extra_features(uo_out[6]));
+    musicfeatures my_music( .clk1(ui_in[7]), .clk2(ui_in[6]), .octave_dena(ui_in[5]), .octave_uena(ui_in[4]), .tremolo_ena(ui_in[3]), .led_ena(ui_in[2]), .out_full(uo_out[7]), .led_out(uo_out[6]));
 
   // List all unused inputs to prevent warnings
   wire _unused = &{ena, clk, rst_n, 1'b0};
