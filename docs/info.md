@@ -21,5 +21,5 @@ Connect thingsssssssss
   - This chip is designed for audio input signals with frequencies between 261.6256Hz and 523.2511Hz (C<sub>4</sub> and C<sub>5</sub>), but will likely work to some degree for others outside of it.
   - the tremolo signal was tested at 10Hz, but feel free to change it.
 - 1 LED for the LED light output (use resistors as necessary)
-- 4 switches to enable the different features (recommend spst or spdt) 
+- 4 pushbuttons for different features
 
