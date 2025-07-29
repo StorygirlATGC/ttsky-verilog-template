@@ -13,6 +13,7 @@ Our chip has a digital audio input wave that is modified through the chip, and t
 
 TL;DR (BASIC TAKEAWAYS FOR USE)
 - This project is a part of the BWSI Basics of ASICs 2025 (Team - ASIC Beaver Hunters: Aria Mitra, Adam Y, Beverly Jin, Alex M, Sahana Hebbar, An-Jie Yu, Hannah Wang)
+- Contact Info (let us know if it works for you!): ariamitra99@yahoo.com, hannahbananainmontana11@gmail.com, 
 - It is a sound manipulator that can change the octave up or down and incorporate a tremolo. These effects can be layered. It also should create a LED blinking in time with the frequency of the sound.
 - The inputs are clk1 (the sound), clk2 (an auxilary input for the tremolo), octave_dena (octave down enable), octave_uena (octave up enable), tremolo_ena (tremolo enable), led_ena (led enable)
 - The outputs are out_full (all sound outputs whether or not effects are layered) and led_out (for the LED display).
