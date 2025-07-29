@@ -1,4 +1,4 @@
-module top_module (input clk1, input clk2, input octave_dena, input octave_uena, input tremolo_ena, output out_o, output extra_features);
+module musicfeatures (input clk1, input clk2, input octave_dena, input octave_uena, input tremolo_ena, output out_o, output extra_features);
 	wire octave_down;
 	wire tremolo;
 	wire octave_up;
