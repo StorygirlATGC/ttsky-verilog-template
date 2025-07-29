@@ -27,7 +27,7 @@ pinout:
   # Inputs
   ui[0]: ""
   ui[1]: ""
-  ui[2]: ""
+  ui[2]: "led_ena"
   ui[3]: "tremolo_ena"
   ui[4]: "octave_uena"
   ui[5]: "octave_dena"
@@ -41,8 +41,8 @@ pinout:
   uo[3]: ""
   uo[4]: ""
   uo[5]: ""
-  uo[6]: "extra_features"
-  uo[7]: "out_o"
+  uo[6]: "led_out"
+  uo[7]: "out_full"
 
   # Bidirectional pins
   uio[0]: ""
